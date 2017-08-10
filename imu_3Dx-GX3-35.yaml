@@ -1,10 +1,10 @@
 rostopic: /imu0
-update_rate: 200.0 #Hz
+update_rate: 29.998 #Hz
 
-accelerometer_noise_density: 0.01 #continous
-accelerometer_random_walk: 0.0002 
-gyroscope_noise_density: 0.005 #continous
-gyroscope_random_walk: 4.0e-06
+accelerometer_noise_density: 0.00064 #continous
+accelerometer_random_walk: 2.6532e-07 
+gyroscope_noise_density: 0.0041 #continous
+gyroscope_random_walk: 6.5734e-07
 
 
 
