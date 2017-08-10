@@ -1,9 +1,8 @@
 cam0:
   camera_model: pinhole
-  distortion_coeffs: [-0.0016509958435871643, 0.02437222940989351, -0.03582816956989852,
-    0.019860839087717054]
+  distortion_coeffs: [1.2828, 0.0304, 0.0166, -0.0138]
   distortion_model: equidistant
-  intrinsics: [461.487246372674, 460.1113992557959, 356.39105303227853, 231.15719697054647]
-  resolution: [752, 480]
-  rostopic: /cam0/image_raw
+  intrinsics: [206.6688, 206.9523, 326.0185, 205.8282]
+  resolution: [640, 460]
+  rostopic: /pleora_polarcam_driver/image_raw
 
