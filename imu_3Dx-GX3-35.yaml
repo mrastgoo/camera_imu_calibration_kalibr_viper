@@ -1,15 +1,8 @@
 rostopic: /imu0
-<<<<<<< HEAD
-update_rate: 30.0 #Hz
-
-accelerometer_noise_density: 0.00064 #continous
-accelerometer_random_walk: 8.86e-07
-=======
-update_rate: 29.998 #Hz
+update_rate: 25 #Hz
 
 accelerometer_noise_density: 0.00064 #continous
 accelerometer_random_walk: 8.86e-07 
->>>>>>> kannala_raw
 gyroscope_noise_density: 0.0041 #continous
 gyroscope_random_walk: 5.7e-07
 
