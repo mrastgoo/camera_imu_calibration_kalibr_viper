@@ -1,8 +1,8 @@
 cam0:
-  camera_model: pinhole
-  distortion_coeffs: [1.2828, 0.0304, 0.0166, -0.0138]
-  distortion_model: equidistant
-  intrinsics: [206.6688, 206.9523, 326.0185, 205.8282]
+  camera_model: omni
+  distortion_coeffs: [1.2828, 0.0108, -0.0200, 0.0167]
+  distortion_model: radtan
+  intrinsics: [1, 207.06448, 206.66068, 324.8380, 208.3764]
   T_cam_imu:
   - [0.9950434118618766, -0.07768331343311957, 0.06207987857854943, 0.0]
   - [0.07273089858788251, 0.9942649626067745, 0.07840536029601808, 0.0]
